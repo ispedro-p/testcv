@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="CV Website">
+  <meta name="keywords" content="Curriculum Vitae,Blog,Personal Website">
+  <meta name="author" content="Pedro Pousa">
+  <title>Pedro Pousa Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing=20>
+    <td>
+      <img src="images/ny2.png" alt="pedro's profile picture">
+    </td>
+    <td>
+      <h1><a href="https://twitter.com/pedro_pousa">Pedro Pousa</a></h1>
+      <p><em>Student of Information Systems Management and Tech Lover</em></p>
+      <p> I am 22 years old and an SAP Fieldglass consultant whose learning to code</p>
+    </td>
+  </table>
+  <hr />
+  <h3>Education</h3>
+  <ul style="list-style-type:disc;">
+    <li>Marketing Management at IPAM</li>
+    <li>Information Systems at ISEG</li>
+  </ul>
+  <hr>
+  <h3>My work Experience</h3>
+  <table border=0 cellspacing="10">
+    <!-- more about tables https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables -->
+    <!-- o border é só para por um frame mas não se deve usar dado que o css é que trata do estilo -->
+    <thead>
+      <!--como abrir cabeçalho na tabela -->
+      <th>Year</th> <!-- célula para escrever no cabeçalho da tabela -->
+      <th>Job position</th>
+    </thead>
+    <tr>
+      <!-- tr = table row td = table data (ou campo para colocar dados) -->
+      <td>2018-current</td>
+      <td>Cloud solution manager at AXA Portugal</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Marketing and PR internship at C.Santos Mercedes-Benz</td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Skills</h3> <!-- Vou fazer uma tabela dentro de uma tabela só para experiência -->
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Html</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>SAP Fielglass</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Blockchain Development</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td><!-- este table data em vez de tr é pq é uma tabela ao lado de outra caso contrário seria uma em baixo da outra e não seria necessária esta experiência-->
+        <table cellspacing="10">
+          <tr>
+            <td>Html</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>SAP Fielglass</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Blockchain Development</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contacts.html">Contact Me!</a>
+  <p>
+    <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download="htmlcheatsheet.pdf">Download the Html cheatsheet here!</a>
+  </p>
+</html>

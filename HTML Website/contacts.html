@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My contacts</title>
+</head>
+
+<body>
+
+  <h2>My Personal contacts</h2>
+  <p>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+  </p>
+  <h3>Reach me @ :</h3>
+  <p>
+    <ul style="list-style-type:disc;">
+      <li>telefone: 9312345654</li>
+      <li>e-mail: dummymail@gmail.com</li>
+    </ul>
+  </p>
+  <hr>
+  <form class="" action="mailto:pedropousa7@gmail.com" method="post" enctype="text/plain">
+    <!--o atributo action determina o que o form faz neste caso mandar email para x
+          o method diz de que forma neste caso o que o post faz é pegar nas infos postas noform
+          e colá-las no email, poderia ser escrevê-las tal como estão numa base de dados
+          o enctype o que faz é dizer como passamos esses dados neste caso em simples texto
+    -->
+    <table>
+      <tr>
+        <td>
+
+          <label>Your Name:</label> </td>
+        <td> <input type="text" name="yourname" value="">
+          <!-- o <br> basicamente passa o resto das coisas para baixo/ o input type diz
+      que tipo de dado estamos a inserir (se texto se password se data etc)
+      o name dá um nome ao dado em causa ou seja um metadata de label criado por nós
+      -->
+        </td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td> <input type="email" name="youremail" value=""></td>
+      </tr>
+    </table>
+
+    <label>Message:</label><br>
+    <textarea name="Message" rows="10" cols="30"></textarea><br>
+    <!-- text area é normalmente para escrever algo tipo mensagem etc, os rows e columns
+ só dizem qual o default quando é criada mas as linhas que aparecem no canto inferior esquerdo deixam ampliar -->
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
